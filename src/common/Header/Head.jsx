@@ -3,8 +3,8 @@ import React from 'react'
 const Head = () => {
   return (
     <>
-      <section className="head theme-bg">
-        <div className="container d_flex">
+      <section className="head theme-bg pt-10 pb-10">
+        <div className="container d-flex">
           <div className="head__left row">
             <i className="fa-solid fa-phone"></i>
             <label>+88012 3457 7894</label>

@@ -1,8 +1,15 @@
+/*_____________START HEAD_____________*/
 .head {
-    padding: 10px 0;
     color: $white;
 
     & i {
         margin-right: 10px;
     }
+
+    & label {
+        margin-right: 30px;
+        font-size: 13px;
+    }
 }
+
+/*_____________END HEAD_____________*/
