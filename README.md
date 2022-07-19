@@ -5,6 +5,7 @@
 
 > ****Dependencies Packages****
 - sass - npm install sass
+- Font Awesome CDN
 
  > ****React Feature Usage****
 
