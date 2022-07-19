@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* <<<<<<<    COLOR     >>>>>>>>> */
+.white-color {
+    color: $white;
+}
+
+.black-color {
+    color: $black;
+}
+
+.theme-color {
+    color: $themeColor;
+}
+
+
+/* <<<<<<<    MARGIN & PADDING     >>>>>>>>> */
+
+@for $i from 1 through 40 {
+    .mt-#{5 * $i} {
+        margin-top: 5px * $i;
+    }
+}
+
+@for $i from 1 through 40 {
+    .mb-#{5 * $i} {
+        margin-bottom: 5px *$i;
+    }
+}
+
+@for $i from 1 through 40 {
+    .ml-#{5 * $i} {
+        margin-left: 5px * $i;
+    }
+}
+
+@for $i from 1 through 40 {
+    .mr-#{5 * $i} {
+        margin-right: 5px *$i;
+    }
+}
+
+@for $i from 1 through 40 {
+    .pt-#{5 * $i} {
+        padding-top: 5px *$i;
+    }
+}
+
+@for $i from 1 through 40 {
+    .pb-#{5 * $i} {
+        padding-bottom: 5px *$i;
+    }
+}
+
+@for $i from 1 through 40 {
+    .pl-#{5 * $i} {
+        padding-left: 5px *$i;
+    }
+}
+
+@for $i from 1 through 40 {
+    .pr-#{5 * $i} {
+        padding-right: 5px *$i;
+    }
+}
+
+
+/* <<<<<<<    BACKGROUND COLOR     >>>>>>>>> */
+.black-bg {
+    background: $black;
+}
+
+.white-bg {
+    background: $white;
+}
+
+.grey-bg {
+    background: $grey;
+}
+
+.theme-bg {
+    background: $themeColor;
+}
+
+
+/* START SITE COMMON STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $poppins;
+    background-color: $white;
+
+}
+
+p {
+    color: $bodyText;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* START SITE COMMON STYLES */

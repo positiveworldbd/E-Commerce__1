@@ -3,7 +3,7 @@ import React from 'react'
 const Head = () => {
   return (
     <>
-      <section className="head">
+      <section className="head theme-bg">
         <div className="container d_flex">
           <div className="head__left row">
             <i className="fa-solid fa-phone"></i>
