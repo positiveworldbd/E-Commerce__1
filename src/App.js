@@ -1,11 +1,12 @@
-import './App.css';
+import React from 'react'
+import Header from './common/Header/Header'
 
-function App() {
+const App = () => {
   return (
     <div>
-      <h1>Start</h1>
+      <Header />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
