@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
 
 const Search = () => {
   return (
     <>
-    <h1>Search</h1>
+      <section className="search">
+        <div className="container ">
+            <div className="logo width">
+              <img src="assets/images/logo.svg" alt="" />
+            </div>
+        </div>
+      </section>
     </>
   )
 }

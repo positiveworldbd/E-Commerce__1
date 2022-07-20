@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   const [MobileMenu, setMobileMenu] = useState(false);
 
+
   return (
     <>
       <header>
@@ -15,7 +16,7 @@ const Navbar = () => {
             </h4>
           </div>
           <div className="navlink">
-            <ul className="nav">
+            <ul className={MobileMenu ? "nav-links-MobileMenu" : "link f-flex capitalize"} onClick={()=> setMobileMenu(false)}>
               <li><NavLink to="/">home</NavLink></li>
               <li><NavLink to="/user">user account</NavLink></li>
               <li><NavLink to="/vendor">vendor account</NavLink></li>
