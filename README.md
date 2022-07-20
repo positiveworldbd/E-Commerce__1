@@ -5,7 +5,9 @@
 
 > ****Dependencies Packages****
 - sass - npm install sass
-- Font Awesome CDN
+- fontAwesome CDN
+- react-router-dom v6
 
  > ****React Feature Usage****
 
+- useState() - toggle nav
