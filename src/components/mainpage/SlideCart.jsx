@@ -2,7 +2,9 @@ import React from 'react'
 
 const SlideCart = () => {
   return (
-    <div>SlideCart</div>
+    <>
+      <h1>SlideCart</h1>
+    </>
   )
 }
 
