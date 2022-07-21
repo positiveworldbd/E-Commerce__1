@@ -38,7 +38,9 @@ header {
     }
 
     & .link {
-        display: none;
+       @media (max-width: 768px) {
+            display: none;
+       }
     }
 }
 
@@ -49,28 +51,57 @@ header {
 
 .nav-links-MobileMenu {
     @media (max-width: 768px) {
-        display: flex;
-        flex-direction: column;
+        position: absolute;
+        display: block;
         padding-top: 30px;
         left: 0;
         top: 0;
         transition: .5s;
-        width: 60%;
+        width: 100%;
         height: 100vh;
         background-color: $white;
         z-index: 888;
+        box-shadow: rgba(50, 50, 93, 0.23) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
     }
 }
 
 .close,
 .open{
-    position: absolute;
-    top: 35px;
-    right: 20px;
-    color: $themeColor;
-    display: block;
-    font-size: 25px;
-    z-index: 999;
+    @media (max-width: 768px) {
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        color: $themeColor;
+        display: block;
+        font-size: 25px;
+        z-index: 999;
+    }
 }
+
+.open{
+    top: 22%;
+    right: 30px;
+    background-color: $themeColor;
+    color: $white;
+    padding: 10px;
+}
+.close{
+    @media (max-width: 768px) {
+        right: 10%;
+    }
+
+
+}
+
+.home-btn{
+    background: linear-gradient(145deg, #e2e8e6, #fff);
+    color: $themeColor;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+
+}
+
 
 /*_____________END Header_____________*/
