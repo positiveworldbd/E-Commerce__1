@@ -1,1 +1,76 @@
-@import './header/_head';
+@import './header/head';
+@import './header/search';
+@import './header/navbar';
+
+/*_____________START Header_____________*/
+header {
+    height: 8vh;
+    box-shadow: -1px 15px 17px -8px rgba(0, 0, 0, 0.1);
+
+    & .navlink {
+        height: 8vh;
+        display: flex;
+        align-items: center;
+
+
+
+        & ul {
+            & li {
+                margin-left: 30px;
+
+                @media (max-width: 768px) {
+                    width: 100%;
+                    transition: all .5s ease-in-out;
+                    text-transform: uppercase;
+                    line-height: 70px;
+                }
+
+                & a {
+                    transition: .5s;
+                    font-size: 15px;
+
+                    &:hover {
+                        color: $themeColor;
+                    }
+                }
+            }
+        }
+    }
+
+    & .link {
+        display: none;
+    }
+}
+
+
+.open {
+    display: none;
+}
+
+.nav-links-MobileMenu {
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        left: 0;
+        top: 0;
+        transition: .5s;
+        width: 60%;
+        height: 100vh;
+        background-color: $white;
+        z-index: 888;
+    }
+}
+
+.close,
+.open{
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    color: $themeColor;
+    display: block;
+    font-size: 25px;
+    z-index: 999;
+}
+
+/*_____________END Header_____________*/

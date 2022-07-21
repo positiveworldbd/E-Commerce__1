@@ -1,5 +1,6 @@
 /*_____________START HEAD_____________*/
 .head {
+    background-color: $secondryColor;
     color: $white;
 
     & i {
@@ -11,5 +12,4 @@
         font-size: 13px;
     }
 }
-
 /*_____________END HEAD_____________*/

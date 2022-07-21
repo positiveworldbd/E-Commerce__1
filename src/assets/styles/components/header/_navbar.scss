@@ -1,0 +1,26 @@
+/*_____________START NAVBAR_____________*/
+.categories {
+    background-color: #f6f9fc;
+    border-radius: 5px;
+    padding: 0 30px;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    & span {
+        margin-right: 20px;
+        font-size: 30px;
+    }
+
+    & h4{
+        font-weight: 500;
+
+        & i{
+            margin-left: 10px;
+        }
+    }
+}
+
+/*_____________END NAVBAR_____________*/
