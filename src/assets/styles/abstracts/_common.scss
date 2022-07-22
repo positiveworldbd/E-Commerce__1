@@ -78,8 +78,18 @@ p {
     text-transform: uppercase;
 }
 
-.row{
+.row {
     width: 50%;
+}
+
+.btn-primary {
+    background-color: $themeColor;
+    padding: 13px 40px;
+    font-weight: 700;
+    color: $white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 

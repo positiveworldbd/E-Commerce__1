@@ -5,7 +5,7 @@ import Slider from './Slider';
 const Home = () => {
   return (
     <>
-      <section className="home">
+      <section className="home mt-20">
         <div className="container d-flex">
           <Categories />
           <Slider />

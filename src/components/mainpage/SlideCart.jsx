@@ -24,7 +24,7 @@ const SlideCart = () => {
           slideCard.map((value, index) => {
             const { title, desc, cover } = value;
             return (
-              <div className="homeSlider__box d-flex top" key={index}>
+              <div className="homeSlider__box d-flex mt-80" key={index}>
                 <div className="homeSlider__left">
                   <h1>{title}</h1>
                   <p>{desc}</p>
