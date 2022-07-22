@@ -4,7 +4,7 @@ const SectionTitle = () => {
     return (
         <>
             <div className="sectionTitle">
-                <i class="fa-solid fa-bolt"></i>
+                <i className="fa-solid fa-bolt"></i>
                 <h2>flash deals</h2>
             </div>
         </>
