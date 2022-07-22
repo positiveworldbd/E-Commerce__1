@@ -3,13 +3,13 @@ import SectionTitle from '../sectionTitle/SectionTitle';
 import FlashCard from './FlashCard';
 
 
-const FlashDeals = () => {
+const FlashDeals = ({productItems}) => {
     return (
         <>
-            <section className="flash">
+            <section className="flash light-bg pt-50 pb-50">
                 <div className="container">
                     <SectionTitle />
-                    <FlashCard />
+                    <FlashCard productItems={productItems}/>
                 </div>
             </section>
         </>

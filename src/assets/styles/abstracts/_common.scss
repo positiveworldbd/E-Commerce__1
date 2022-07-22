@@ -93,6 +93,7 @@ p {
 }
 
 
+
 /* START SITE COMMON STYLES */
 
 
@@ -177,4 +178,8 @@ p {
 
 .theme-bg {
     background: $themeColor;
+}
+
+.light-bg {
+    background: $bg-light;
 }
