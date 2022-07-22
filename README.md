@@ -7,7 +7,10 @@
 - sass - npm install sass
 - fontAwesome CDN
 - react-router-dom v6
+- React Slick
 
  > ****React Feature Usage****
 
 - useState() - toggle nav
+- map()
+- props
