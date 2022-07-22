@@ -1,6 +1,6 @@
 import React from 'react'
 import Categories from './Categories'
-import SlideCart from './SlideCart'
+import Slider from './Slider';
 
 const Home = () => {
   return (
@@ -8,7 +8,7 @@ const Home = () => {
       <section className="home">
         <div className="container d-flex">
           <Categories />
-          <SlideCart />
+          <Slider />
         </div>
       </section>
     </>
