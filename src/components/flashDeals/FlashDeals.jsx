@@ -7,7 +7,7 @@ const FlashDeals = () => {
     return (
         <>
             <section className="flash">
-                <div className="container f-flex">
+                <div className="container">
                     <SectionTitle />
                     <FlashCard />
                 </div>

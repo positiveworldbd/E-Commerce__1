@@ -14,7 +14,7 @@ const FlashCard = () => {
                         </div>
                     </div>
                     <div className="product__details">
-                        <h3></h3>
+                        <h3>Bangladesh</h3>
                         <div className="product__rate">
                             <i className="fa-solid fa-star"></i>
                             <i className="fa-solid fa-star"></i>
@@ -23,7 +23,7 @@ const FlashCard = () => {
                             <i className="fa-solid fa-star"></i>
                         </div>
                         <div className="product__price">
-                            <h4></h4>
+                            <h4>Content</h4>
                         </div>
                     </div>
                 </div>
