@@ -1,0 +1,14 @@
+.sectionTitle {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+    & i {
+        color: $themeColor;
+        margin: 10px;
+    }
+
+    & h2 {
+        text-transform: capitalize;
+    }
+}
